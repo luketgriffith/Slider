@@ -1,16 +1,19 @@
+(function (){
+  
 var para = $('.meow');
 para.on('click', function(){
-   $('.para').toggleClass('big').addClass('para');
+  // var btn= $(event.target);
+   $('.para').toggleClass('big');
 });
 
-
-var para = $('.meow2');
-para.on('click', function(){
-  $('.para2').toggleClass('big').addClass('para');
+var para2 = $('.meow2');
+para2.on('click', function(){
+  $('.para2').toggleClass('big');
 });
 
-
-var para = $('.meow3');
-para.on('click', function(){
-  $('.para3').toggleClass('big').addClass('para');
+var para3 = $('.meow3');
+para3.on('click', function(){
+  $('.para3').toggleClass('big');
 });
+
+})();
